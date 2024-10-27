@@ -1,0 +1,17 @@
+C:\Users\fbbas\source\repos\FocusLearnAI\DataAccess\bin\Debug\DataAccess.dll.config
+C:\Users\fbbas\source\repos\FocusLearnAI\DataAccess\bin\Debug\DataAccess.dll
+C:\Users\fbbas\source\repos\FocusLearnAI\DataAccess\bin\Debug\DataAccess.pdb
+C:\Users\fbbas\source\repos\FocusLearnAI\DataAccess\bin\Debug\Entities.dll
+C:\Users\fbbas\source\repos\FocusLearnAI\DataAccess\bin\Debug\EntityFramework.dll
+C:\Users\fbbas\source\repos\FocusLearnAI\DataAccess\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\fbbas\source\repos\FocusLearnAI\DataAccess\bin\Debug\Entities.pdb
+C:\Users\fbbas\source\repos\FocusLearnAI\DataAccess\bin\Debug\Entities.dll.config
+C:\Users\fbbas\source\repos\FocusLearnAI\DataAccess\bin\Debug\EntityFramework.xml
+C:\Users\fbbas\source\repos\FocusLearnAI\DataAccess\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\fbbas\source\repos\FocusLearnAI\DataAccess\obj\Debug\DataAccess.csproj.AssemblyReference.cache
+C:\Users\fbbas\source\repos\FocusLearnAI\DataAccess\obj\Debug\DataAccess.Properties.Resources.resources
+C:\Users\fbbas\source\repos\FocusLearnAI\DataAccess\obj\Debug\DataAccess.csproj.GenerateResource.cache
+C:\Users\fbbas\source\repos\FocusLearnAI\DataAccess\obj\Debug\DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\fbbas\source\repos\FocusLearnAI\DataAccess\obj\Debug\DataAccess.csproj.CopyComplete
+C:\Users\fbbas\source\repos\FocusLearnAI\DataAccess\obj\Debug\DataAccess.dll
+C:\Users\fbbas\source\repos\FocusLearnAI\DataAccess\obj\Debug\DataAccess.pdb
