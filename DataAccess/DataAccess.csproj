@@ -59,10 +59,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Abstract\ICategoryDal.cs" />
+    <Compile Include="Abstract\IVideoDal.cs" />
+    <Compile Include="Concrete\EfCategoryDal.cs" />
     <Compile Include="Concrete\EfEntityRepository.cs" />
     <Compile Include="Concrete\EfUserDal.cs" />
     <Compile Include="Abstract\IEntityRepository.cs" />
     <Compile Include="Abstract\IUserDal.cs" />
+    <Compile Include="Concrete\EfVideoDal.cs" />
     <Compile Include="Concrete\NorthwindContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Properties\Resources.resx">

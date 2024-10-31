@@ -1,11 +1,12 @@
-﻿// src/services/GeminiService.js
+﻿
 const { GoogleGenerativeAI, HarmCategory, HarmBlockThreshold } = require("@google/generative-ai");
 const { GoogleAIFileManager } = require("@google/generative-ai/server");
+const config = require("../config");
 
 class GeminiService {
-    constructor(apiKey) {
-        this.genAI = new GoogleGenerativeAI(apiKey);
-        this.fileManager = new GoogleAIFileManager(apiKey);
+    constructor() {
+        this.genAI = new GoogleGenerativeAI(config.API_KEY); 
+        this.fileManager = new GoogleAIFileManager(config.API_KEY); 
     }
 
     async uploadToGemini(path, mimeType) {

@@ -10,6 +10,7 @@ using DataAccess.Abstract;
 using Entities.Concrete;
 using Business.ValidationRules;
 using FluentValidation;
+using System.IO;
 
 namespace Business.Concrete
 {
@@ -23,7 +24,13 @@ namespace Business.Concrete
             _userDal = userDal;
         }
 
-        public void Authenticate(User user)
+        public void Add(User user)
+        {
+            
+            _userDal.Add(user);
+        }
+
+        public User Authenticate(User user)
         {
             UserValidator userValidator = new UserValidator();
             var result = userValidator.Validate(user);
@@ -38,17 +45,35 @@ namespace Business.Concrete
                 throw new Exception("Kullanıcı bulunamadı veya şifre yanlış.");
             }
 
-            // Kullanıcı türüne göre özel mesaj fırlatılıyor
+            
             if (existingUser.UserType == 1)
             {
-                throw new Exception("Login1"); // Tür 1 kullanıcı
+                throw new Exception("Login1"); // Type 1 user
+                
             }
             else
             {
-                throw new Exception("Login2"); // Tür 2 kullanıcı
+                throw new Exception("Login2"); // Type 2 user 
+                
             }
 
 
+        }
+
+       
+
+        public void Delete(User user)
+        {
+            try
+            {
+                _userDal.Delete(user);
+            }
+            catch
+            {
+
+                throw new Exception("Silme gerçekleşemedi");
+
+            }
         }
 
         public List<User> GetAll()
@@ -56,6 +81,6 @@ namespace Business.Concrete
             return _userDal.GetAll();
         }
 
-
+        
     }
 }

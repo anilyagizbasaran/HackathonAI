@@ -11,3 +11,4 @@ C:\Users\fbbas\source\repos\FocusLearnAI\Entities\obj\Debug\Entities.csproj.Core
 C:\Users\fbbas\source\repos\FocusLearnAI\Entities\obj\Debug\Entities.csproj.CopyComplete
 C:\Users\fbbas\source\repos\FocusLearnAI\Entities\obj\Debug\Entities.dll
 C:\Users\fbbas\source\repos\FocusLearnAI\Entities\obj\Debug\Entities.pdb
+C:\Users\fbbas\source\repos\FocusLearnAI\Entities\obj\Debug\Entities.csproj.AssemblyReference.cache

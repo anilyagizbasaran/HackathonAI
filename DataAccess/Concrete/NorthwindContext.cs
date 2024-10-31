@@ -12,5 +12,7 @@ namespace DataAccess.Concrete
     public class NorthwindContext:DbContext
     {
         public DbSet<User> Users { get; set; }
+        public DbSet<Video> Videos{ get; set; }
+        public DbSet<Category> Categories { get; set; }
     }
 }

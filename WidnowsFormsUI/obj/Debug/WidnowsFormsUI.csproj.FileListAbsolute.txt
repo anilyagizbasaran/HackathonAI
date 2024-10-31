@@ -28,3 +28,10 @@ C:\Users\fbbas\source\repos\FocusLearnAI\WidnowsFormsUI\obj\Debug\WidnowsFormsUI
 C:\Users\fbbas\source\repos\FocusLearnAI\WidnowsFormsUI\bin\Debug\WidnowsFormsUI.exe.config
 C:\Users\fbbas\source\repos\FocusLearnAI\WidnowsFormsUI\bin\Debug\WidnowsFormsUI.exe
 C:\Users\fbbas\source\repos\FocusLearnAI\WidnowsFormsUI\obj\Debug\WidnowsFormsUI.exe
+C:\Users\fbbas\source\repos\FocusLearnAI\WidnowsFormsUI\bin\Debug\grpc_csharp_ext.x86.dll
+C:\Users\fbbas\source\repos\FocusLearnAI\WidnowsFormsUI\bin\Debug\grpc_csharp_ext.x64.dll
+C:\Users\fbbas\source\repos\FocusLearnAI\WidnowsFormsUI\bin\Debug\libgrpc_csharp_ext.x64.so
+C:\Users\fbbas\source\repos\FocusLearnAI\WidnowsFormsUI\bin\Debug\libgrpc_csharp_ext.x64.dylib
+C:\Users\fbbas\source\repos\FocusLearnAI\WidnowsFormsUI\obj\Debug\WidnowsFormsUI.UploadVideoForm.resources
+C:\Users\fbbas\source\repos\FocusLearnAI\WidnowsFormsUI\obj\Debug\WidnowsFormsUI.SignUpForm.resources
+C:\Users\fbbas\source\repos\FocusLearnAI\WidnowsFormsUI\obj\Debug\WidnowsFormsUI.StudentMenuForm.resources

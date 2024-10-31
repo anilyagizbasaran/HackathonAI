@@ -11,7 +11,10 @@ namespace Business.Abstract
     public interface IUserService
     {
         List<User> GetAll();
-        void Authenticate(User user);
+        User Authenticate(User user);
+        void Add(User user);
+        void Delete(User user);
+
         
     }
 }
